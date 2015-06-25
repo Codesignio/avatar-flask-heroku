@@ -8,7 +8,7 @@ app.config['DEBUG'] = True
 def hello():
     return 'You can generate avatars with the first letter. Try: /avatar?name=Pavel&size=128'
 
-@app.route("/avatar")
+@app.route("/get")
 def photo():
 	try:
 		initials = request.args.get('name');
