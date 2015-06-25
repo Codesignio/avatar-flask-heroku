@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 @app.route('/')
 def hello():
-    return 'You can generate avatars with the first letter. Try: /avatar?name=Pavel&size=128'
+    return 'You can generate avatars with the first letter. Try: /get?name=Pavel&size=128'
 
 @app.route("/get")
 def photo():
