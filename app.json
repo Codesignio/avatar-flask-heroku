@@ -1,0 +1,7 @@
+{
+  "name": "Avatar-flask-heroku",
+  "description": "Generate avatars with the first letter of your name",
+  "repository": "https://github.com/Codesignio/avatar-flask-heroku",
+  "logo": "https://avatarius.herokuapp.com/get",
+  "keywords": ["avatar", "flask"]
+}
